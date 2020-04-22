@@ -123,3 +123,68 @@ Standarize what it means to mean a Jr, Mid, Senior developer. An Engineer, etc.
 ARKITEKTOR(архитектор) FRAMEWORK [arkitektorframework.com](https://www.namecheap.com/domains/registration/results/?domain=arkhitektor)
 
 ... @David Help!
+
+## Where to start
+
+I'd say we need to focus on three main objectives:
+
+- Visibility. Get CQ out there and start providing public information.
+- Knowledge. Continue improving our tech knowledge and document the process.
+- Product. Start building things.
+
+### Visibility
+
+Kickoff our website, pretty basic at the begging. Maybe start with a non-presumptuous non-opinionated blog about react + node.
+
+- Define web tech
+- Build and deploy web
+- Organize documentation we currently have into a blog
+- (in some time) We can start an opinionated part of the blog with our own experiences with technologies, proyects, methodologies, architecture decisions... 
+
+### Knowledge
+
+We need to improve our own knowledge and build our docs from trustworthy sources.
+
+- Take courses on interesting topics (pluralsight, udemy?)
+- Gather articles and videos to review, share and document
+- Create a to-do list of interesting topics to review
+
+### JS
+- Design patterns https://github.com/drenther/js-design-patterns
+https://addyosmani.com/resources/essentialjsdesignpatterns/book/
+
+#### Node
+
+Organize the notes from pluralsight courses.
+
+- Node basics + principles
+- Advanced node, answer this https://medium.com/edge-coders/how-well-do-you-know-node-js-36b1473c01c8
+- The event loop
+- Best practices
+- Testing
+- Cryptography
+- Node as a web server 
+- Error handling in a server https://dev.to/nedsoft/central-error-handling-in-express-3aej
+- Backend architecture
+- Modularity in node
+- clusters and multi processes
+- Async-await + node https://zellwk.com/blog/async-await-express/
+
+#### Angular
+- architecture https://www.youtube.com/watch?v=YU-fMRs-ZYU
+- best practices and architecture https://angular-academy.com/angular-architecture-best-practices/
+
+#### React
+
+#### Other
+- serverless
+- microservices https://www.youtube.com/watch?v=CZ3wIuvmHeM&feature=youtu.be
+
+
+### Product
+
+Building apps, modules, packages, libs... following the learnt practices and use them as boilerplates or open source.
+
+- Auth server
+- Persistence layer (provide models for different dbs, encrypt data on rest...)
+- Basic react app 
