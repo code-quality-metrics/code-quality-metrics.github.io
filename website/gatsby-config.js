@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: `/website`, // This path is subpath of your hosting https://domain/portfolio
   siteMetadata: {
-    title: 'Gatsby Starter Hyperspace',
+    title: 'Code Quality',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import Scroll from '../common/Scroll';
 
 import CapabilityList from './CapabilityList';
 
@@ -18,9 +18,11 @@ const Capabilities = () =>
       </div>
       <ul className="actions">
         <li>
-          <Link className="button" to="/generic">
-            Learn more
-          </Link>
+          <Scroll type="id" element="three">
+            <a href="#three" className="button">
+              Contact us
+            </a>
+          </Scroll>
         </li>
       </ul>
     </div>

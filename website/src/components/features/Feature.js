@@ -1,24 +1,38 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
-const Feature = ({href, image, heading, description, to}) =>
+const Feature = ({ href, image, heading, description, to }) => (
   <section>
-    <a href={href} className="image" alt="image">
-      <img src={image} alt="" data-position="center center" />
+    <a
+      href={href}
+      className="image"
+      alt="image"
+      style={{ margin: '0 auto', padding: '80px 32px 0' }}
+    >
+      <img
+        src={image}
+        alt=""
+        data-position="center center"
+        style={{ margin: '0 auto', width: '200px', borderRadius: '50%' }}
+      />
     </a>
     <div className="content">
       <div className="inner">
         <h2>{heading}</h2>
         <p>{description}</p>
-        <ul className="actions">
-          <li>
-            <Link className="button" to={to.href}>
-              {to.label}
-            </Link>
-          </li>
-        </ul>
+        {to && (
+          <ul className="actions">
+            {to.map(to => (
+              <li>
+                <a className="button" href={to.href} target="_blank">
+                  {to.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        )}
       </div>
     </div>
   </section>
+);
 
 export default Feature;
