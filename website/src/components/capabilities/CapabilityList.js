@@ -10,19 +10,19 @@ const CapabilityList = () => {
       iconClass: 'fa-code',
     },
     {
+      heading: 'Open source',
+      // description: 'Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.',
+      iconClass: 'fa-code',
+    },
+    {
       heading: 'Docs',
       // description: 'Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.',
-      iconClass: 'fa-lock',
+      iconClass: 'fa-pencil',
     },
     {
       heading: 'Blog',
       // description: 'Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.',
       iconClass: 'fa-pencil',
-    },
-    {
-      heading: 'Open source',
-      // description: 'Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.',
-      iconClass: 'fa-code',
     },
   ]
 

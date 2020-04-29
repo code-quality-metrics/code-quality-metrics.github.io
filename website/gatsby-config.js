@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/website`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: '', // This path is subpath of your hosting https://domain/portfolio
   siteMetadata: {
     title: 'Code Quality',
   },
@@ -8,7 +8,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Hyperspace',
+        name: 'Code Quality - CQ',
         short_name: 'starter',
         start_url: '/',
         background_color: '#663399',
