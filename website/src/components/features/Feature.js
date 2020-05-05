@@ -2,8 +2,7 @@ import React from 'react';
 
 const Feature = ({ href, image, heading, description, to }) => (
   <section>
-    <a
-      href={href}
+    <div
       className="image"
       alt="image"
       style={{ margin: '0 auto', padding: '80px 32px 0' }}
@@ -14,7 +13,7 @@ const Feature = ({ href, image, heading, description, to }) => (
         data-position="center center"
         style={{ margin: '0 auto', width: '200px', borderRadius: '50%' }}
       />
-    </a>
+    </div>
     <div className="content">
       <div className="inner">
         <h2>{heading}</h2>

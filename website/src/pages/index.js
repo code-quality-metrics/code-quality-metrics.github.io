@@ -7,6 +7,7 @@ import Sidebar  from '../components/common/Sidebar';
 import Introduction from '../components/introduction/Introduction';
 import Features     from '../components/features/Features';
 import Capabilities from '../components/capabilities/Capabilities';
+import Blog from '../components/blog/Blog';
 import Contact      from '../components/contact/Contact';
 
 const IndexPage = () =>
@@ -17,6 +18,7 @@ const IndexPage = () =>
       <Introduction />
       <Features />
       <Capabilities />
+      <Blog />
       <Contact />
     </div>
 
