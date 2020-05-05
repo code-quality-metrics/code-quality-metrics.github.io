@@ -8,7 +8,7 @@ const Blog = () => (
         Visit our <b>blog</b> for insides on Node and React
       </p>
       <Scroll type="id" element="one">
-        <a href="#one" className="button">
+        <a href="https://code-quality-metrics.github.io/docs/blog" className="button">
           Go to the blog ➡
         </a>
       </Scroll>
