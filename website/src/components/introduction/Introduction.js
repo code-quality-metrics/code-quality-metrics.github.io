@@ -16,6 +16,11 @@ const Introduction = () =>
             </a>
           </Scroll>
         </li>
+        <li>
+          <a href="https://code-quality-metrics.github.io/docs-and-blog/" target="_blank" className="button">
+            Access our content
+          </a>
+        </li>
       </ul>
     </div>
   </section>

@@ -7,11 +7,9 @@ const Blog = () => (
       <p>
         Visit our <b>blog</b> for insides on Node and React
       </p>
-      <Scroll type="id" element="one">
-        <a href="https://code-quality-metrics.github.io/docs/blog" className="button">
-          Go to the blog ➡
-        </a>
-      </Scroll>
+      <a href="https://code-quality-metrics.github.io/docs-and-blog/blog" className="button">
+        Go to the blog ➡
+      </a>
     </div>
   </section>
 );
