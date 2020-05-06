@@ -25,8 +25,8 @@
   },
   "scripts": {
     "develop": "gatsby develop",
-    "build": "npm run clean && gatsby build",
-    "deploy": "npm run clean && gatsby build --prefix-paths && gh-pages --branch master -d public",
+    "build": "npm run clean && gatsby build && cp README.md public",
+    "deploy": "npm run clean && gatsby build --prefix-paths && cp README.md public && gh-pages --branch master -d public",
     "serve": "gatsby serve",
     "clean": "rimraf .cache public",
     "format": "prettier --write '**/*.js'",
