@@ -2,7 +2,8 @@ import React from 'react';
 
 import rubenPic from '../../images/ruben.jpeg';
 import davidPic from '../../images/david.png';
-import pic3 from '../../images/pic03.jpg';
+// import pic3 from '../../images/pic03.jpg';
+import jennyPic from '../../images/jenny.jpeg';
 
 import Feature from './Feature';
 
@@ -12,7 +13,7 @@ const Features = () => {
     href: '/#',
     image: davidPic,
     heading: 'David Ortiz',
-    description: 'Full-stack Developer / Scrum Master',
+    description: 'Full Stack Developer - Scrum Master',
     to: [
       {
         href: 'https://github.com/DavidOVM',
@@ -28,7 +29,7 @@ const Features = () => {
     href: '/#',
     image: rubenPic,
     heading: 'Rubén Alcázar',
-    description: 'Cloud Architect / Full Stack Developer',
+    description: 'Cloud Architect - Full Stack Developer',
     to: [
       {
         href: 'https://github.com/psypersky',
@@ -40,19 +41,32 @@ const Features = () => {
       },
     ],
   };
-  const other = {
+  const jenny = {
     href: '/#',
-    image: pic3,
-    heading: 'Other colaborators',
-    description:
-      'We work with more engineers to cover specific necessities. We are also open to new partnerships if you want to collaborate with us.',
+    image: jennyPic,
+    heading: 'Jennifer Azaña',
+    description: 'Full Stack / Mobile - Scrum Master',
+    to: [
+      {
+        href: 'https://github.com/JenniferAz',
+        label: 'GitHub',
+      },
+      {
+        href: 'https://www.linkedin.com/in/jennifer-azana-perez/',
+        label: 'LinkedIn',
+      },
+    ],
   };
-  if (Math.round(Math.random())) {
-    FEATURES.push(david, ruben);
-  } else {
-    FEATURES.push(ruben, david);
-  }
-  FEATURES.push(other);
+  // const other = {
+  //   href: '/#',
+  //   image: pic3,
+  //   heading: 'Other colaborators',
+  //   description:
+  //     'We work with more engineers to cover specific necessities. We are also open to new partnerships if you want to collaborate with us.',
+  // };
+  FEATURES.push(david, ruben, jenny);
+  FEATURES.sort(() => .5 - Math.random());
+  // FEATURES.push(other);
 
   const [features] = React.useState(FEATURES);
 
