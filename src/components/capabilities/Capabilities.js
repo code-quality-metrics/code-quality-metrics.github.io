@@ -8,11 +8,10 @@ const Capabilities = () => (
     <div className="inner">
       <h2>What we do</h2>
       <p>
-        We are working on building an open source ecosystem, support
-        documentation and useful blog articles based on our knowledge and
-        expertise. We provide consulting and development services. Codebase
-        refactoring, quality reviews, development... let us know how we can
-        help.
+        We are working on support documentation and useful blog articles based
+        on our knowledge and expertise. We provide consulting and development
+        services. Codebase refactoring, quality reviews, development... let us
+        know how we can help.
       </p>
       <div className="features">
         <CapabilityList />

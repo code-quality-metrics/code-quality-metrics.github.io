@@ -8,55 +8,56 @@ import jennyPic from '../../images/jenny.jpeg';
 import Feature from './Feature';
 
 const Features = () => {
-  const FEATURES = [];
-  const david = {
-    href: '/#',
-    image: davidPic,
-    heading: 'David Ortiz',
-    description: 'Full Stack Developer - Scrum Master',
-    to: [
-      {
-        href: 'https://github.com/DavidOVM',
-        label: 'GitHub',
-      },
-      {
-        href: 'https://www.linkedin.com/in/d-ortiz-vallejuelo/',
-        label: 'LinkedIn',
-      },
-    ],
-  };
-  const ruben = {
-    href: '/#',
-    image: rubenPic,
-    heading: 'Rubén Alcázar',
-    description: 'Cloud Architect - Full Stack Developer',
-    to: [
-      {
-        href: 'https://github.com/psypersky',
-        label: 'GitHub',
-      },
-      {
-        href: 'https://www.linkedin.com/in/psypersky/',
-        label: 'LinkedIn',
-      },
-    ],
-  };
-  const jenny = {
-    href: '/#',
-    image: jennyPic,
-    heading: 'Jennifer Azaña',
-    description: 'Full Stack / Mobile - Scrum Master',
-    to: [
-      {
-        href: 'https://github.com/JenniferAz',
-        label: 'GitHub',
-      },
-      {
-        href: 'https://www.linkedin.com/in/jennifer-azana-perez/',
-        label: 'LinkedIn',
-      },
-    ],
-  };
+  const FEATURES = [
+    {
+      href: '/#',
+      image: rubenPic,
+      heading: 'Rubén Alcázar',
+      description: 'Cloud Architect - Full Stack Developer',
+      to: [
+        {
+          href: 'https://github.com/psypersky',
+          label: 'GitHub',
+        },
+        {
+          href: 'https://www.linkedin.com/in/psypersky/',
+          label: 'LinkedIn',
+        },
+      ],
+    },
+    {
+      href: '/#',
+      image: davidPic,
+      heading: 'David Ortiz',
+      description: 'Full Stack Developer - Scrum Master',
+      to: [
+        {
+          href: 'https://github.com/DavidOVM',
+          label: 'GitHub',
+        },
+        {
+          href: 'https://www.linkedin.com/in/d-ortiz-vallejuelo/',
+          label: 'LinkedIn',
+        },
+      ],
+    },
+    {
+      href: '/#',
+      image: jennyPic,
+      heading: 'Jennifer Azaña',
+      description: 'Full Stack / Mobile - Scrum Master',
+      to: [
+        {
+          href: 'https://github.com/JenniferAz',
+          label: 'GitHub',
+        },
+        {
+          href: 'https://www.linkedin.com/in/jennifer-azana-perez/',
+          label: 'LinkedIn',
+        },
+      ],
+    },
+  ];
   // const other = {
   //   href: '/#',
   //   image: pic3,
@@ -64,8 +65,8 @@ const Features = () => {
   //   description:
   //     'We work with more engineers to cover specific necessities. We are also open to new partnerships if you want to collaborate with us.',
   // };
-  FEATURES.push(david, ruben, jenny);
-  FEATURES.sort(() => .5 - Math.random());
+  // FEATURES.push(david, ruben, jenny);
+  // FEATURES.sort(() => .5 - Math.random());
   // FEATURES.push(other);
 
   const [features] = React.useState(FEATURES);
