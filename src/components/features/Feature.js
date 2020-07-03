@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Feature = ({ href, image, heading, description, to }) => (
+const Feature = ({ href, image, heading, description, to, extraInfo }) => (
   <section>
     <div
       className="image"
@@ -18,6 +18,7 @@ const Feature = ({ href, image, heading, description, to }) => (
       <div className="inner">
         <h2>{heading}</h2>
         <p>{description}</p>
+        <p>{extraInfo}</p>
         {to && (
           <ul className="actions">
             {to.map(to => (

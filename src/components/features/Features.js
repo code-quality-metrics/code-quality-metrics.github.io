@@ -14,6 +14,7 @@ const Features = () => {
       image: rubenPic,
       heading: 'Rubén Alcázar',
       description: 'Cloud Architect - Full Stack Developer',
+      
       to: [
         {
           href: 'https://github.com/psypersky',
